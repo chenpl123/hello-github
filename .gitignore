@@ -1,0 +1,27 @@
+# 依赖 / 虚拟环境
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# 数据与产物（大体积、可重建）
+data/
+*.csv
+*.parquet
+*.pkl
+charts/
+output/
+
+# 密钥（最重要）
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
